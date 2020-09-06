@@ -1,0 +1,63 @@
+:root {
+  --color--light: #ffffff;
+  --color--main: turquoise;
+  --main--font: 'Montserrat', sans-serif;
+}
+
+body {
+  font-family: var(--main--font);
+  background: var(--color--main);
+  text-align: center;
+}
+
+.title {
+  font-weight: 900;
+  font-size: 90px;
+  letter-spacing: 0.05em;
+  color: white;
+}
+
+.main {
+  font-size: 32px;
+  color: white;
+  margin-left: 15px;
+}
+
+button {
+  width: 240px;
+  height: 50px;
+  border-radius: 40px;
+  font-family: 'Montserrat';
+  outline: none;
+  font-size: 22px;
+  font-weight: bold;
+  border: none;
+  color: turquoise;
+  background-color: white;
+  margin-top: 10px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button:active {
+  background-color: white;
+  transform: translateY(4px);
+}
+
+@media all and (min-width: 768px) {
+  .title {
+    font-size: 100px;
+  }
+  .buttons {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  button {
+    margin-right: 10px;
+  }
+}
