@@ -1,6 +1,6 @@
 :root {
   --color--light: #ffffff;
-  --color--main: turquoise;
+  --color--main: pink;
   --main--font: 'Montserrat', sans-serif;
 }
 
@@ -14,26 +14,26 @@ body {
   font-weight: 900;
   font-size: 90px;
   letter-spacing: 0.05em;
-  color: white;
+  color: var(--color--light);
 }
 
 .main {
   font-size: 32px;
-  color: white;
-  margin-left: 15px;
+  color: var(--color--light);
+  margin: 0 50px 0 50px;
 }
 
 button {
   width: 240px;
   height: 50px;
   border-radius: 40px;
-  font-family: 'Montserrat';
+  font-family: var(--main--font);
   outline: none;
   font-size: 22px;
   font-weight: bold;
   border: none;
-  color: turquoise;
-  background-color: white;
+  color: var(--color--main);
+  background-color: var(--color--light);
   margin-top: 10px;
 }
 
@@ -44,7 +44,7 @@ button {
 }
 
 button:active {
-  background-color: white;
+  background-color: var(--color--light);
   transform: translateY(4px);
 }
 
