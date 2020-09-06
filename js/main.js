@@ -20,14 +20,14 @@ const what = [
   'mi casa',
 ];
 const when = [
-  'mientras dormía',
+  'mientras yo dormía',
   'ayer',
   'esta mañana',
   'el año pasado',
   'el mes pasado',
 ];
 const how = [
-  'sin darme cuenta',
+  'sin que me diese cuenta',
   'suavemente',
   'despacito',
   'mientras comía cocido',
