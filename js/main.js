@@ -64,6 +64,6 @@ button.addEventListener('click', getExcuse);
 reset.addEventListener('click', resetP);
 
 // Translate all
-const translator = new Trans(["6ee2b634b5mshf767aaa2e13c109p1cac46jsn5a04d9722717"]);
+const translator = new Trans(["api key"]);
 translator.listenLangSelector('lang', 'click');
 translator.translateEl([h1, button, reset, p]);
