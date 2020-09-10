@@ -8,11 +8,24 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/lang.css" />
     <link rel="stylesheet" href="./styles/main.css" />
     <link rel="icon" href="./images/favicon.png" />
   </head>
 
   <body>
+
+    <div class="lang-options">
+      <label class="active">
+        <input type="radio" name="lang" value="es" checked="checked" />
+        <img src="images/flag-es.png" />
+      </label>
+      <label>
+        <input type="radio" name="lang" value="en" />
+        <img src="images/flag-en.png" />
+      </label>
+    </div>
+
     <header class="header">
       <h1 class="title">Excuse generator</h1>
     </header>
@@ -24,7 +37,7 @@
         <button class="reset">Resetea</button>
       </div>
     </main>
-
+    <script src="./js/translate.js"></script>
     <script src="./js/main.js"></script>
   </body>
 </html>

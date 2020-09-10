@@ -1,0 +1,21 @@
+.lang-options {
+  position: absolute;
+  top: 2em;
+  right: 2em;
+}
+
+.lang-options [type="radio"] {
+  display: none;
+}
+
+.lang-options img {
+  width: 80px;
+}
+
+.lang-options label.active img {
+  border-bottom: 8px solid white;
+}
+
+.lang-options label:not(.active) img {
+  border-bottom: 8px solid var(--color--main);
+}
